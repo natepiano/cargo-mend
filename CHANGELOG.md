@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- `unused_pub` no longer fires on a type reachable only through the return or parameter type of a `pub(crate)` function whose callers live in another module, which made `cargo mend --fix` remove a `pub` that the function signature still needs (E0446).
+
 ## [0.15.1] - 2026-05-25
 
 ### Fixed
