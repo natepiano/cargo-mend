@@ -1,9 +1,19 @@
 # cargo-mend
 
+> [!IMPORTANT]
+> **This repository has moved to [natepiano/cargo-liner](https://github.com/natepiano/cargo-liner).**
+>
+> cargo-mend is now developed at [`crates/cargo-mend`](https://github.com/natepiano/cargo-liner/tree/main/crates/cargo-mend)
+> inside the cargo-liner workspace, alongside the other cargo tools.
+> This repository is archived and read-only. Its full history was grafted into cargo-liner,
+> so every commit and `git blame` line is preserved there.
+>
+> - **Install** — unchanged: `cargo install cargo-mend`
+> - **Issues and pull requests** — please open them at [natepiano/cargo-liner](https://github.com/natepiano/cargo-liner/issues)
+
 [![Crates.io](https://img.shields.io/crates/v/cargo-mend.svg)](https://crates.io/crates/cargo-mend)
 [![MIT/Apache 2.0](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/natepiano/cargo-mend#license)
 [![Crates.io](https://img.shields.io/crates/d/cargo-mend.svg)](https://crates.io/crates/cargo-mend)
-[![CI](https://github.com/natepiano/cargo-mend/workflows/CI/badge.svg)](https://github.com/natepiano/cargo-mend/actions)
 
 **Warning:** This project is pre-1.0 and under active development. Diagnostics, config, and CLI
 flags may change between releases. Fix modes modify source files in place; Mend-managed fixes roll
